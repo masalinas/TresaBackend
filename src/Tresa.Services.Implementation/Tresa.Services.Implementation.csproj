@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tresa.Models\Tresa.Models.csproj" />
+    <ProjectReference Include="..\Tresa.DataAccess\Tresa.DataAccess.csproj" />
+    <ProjectReference Include="..\Tresa.Services.Contracts\Tresa.Services.Contracts.csproj" />    
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>
